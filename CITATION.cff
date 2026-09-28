@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Agentic Payments Readiness Dataset 2026"
+version: "1.1"
+date-released: 2026-09-28
+license: CC-BY-4.0
+authors:
+  - name: "PinkWallet"
+url: "https://pinkwallet.com/agentic/research/agentic-payments-readiness-report-2026/"
+keywords:
+  - agentic payments
+  - AI agents
+  - MCP
+  - x402
+  - AP2
+  - Agentic Commerce Protocol

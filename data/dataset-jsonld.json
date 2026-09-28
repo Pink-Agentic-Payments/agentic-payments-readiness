@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Agentic Payments Readiness Report 2026 (v1.1) - Scoring Dataset",
+  "description": "An original, reproducible benchmark of whether AI agents can pay through 13 payment and financial infrastructure providers today (Airwallex, Skyfire, Payman, Crossmint, Visa, Mastercard, Adyen, PayPal, Checkout.com, Circle, Stripe, Coinbase, Wise), scored against each provider's own official documentation across 7 dimensions: agent SDK/API, MCP server availability, agent payment protocol support, developer sandbox access, spending guardrails, payment rails, and documentation/pricing transparency.",
+  "creator": {
+    "@type": "Organization",
+    "name": "PinkWallet",
+    "url": "https://pinkwallet.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "PinkWallet",
+    "url": "https://pinkwallet.com"
+  },
+  "datePublished": "2026-09-28",
+  "dateModified": "2026-09-28",
+  "version": "v1.1",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "temporalCoverage": "2026-09-27/2026-09-28",
+  "spatialCoverage": "Global",
+  "keywords": [
+    "agentic payments",
+    "AI agents",
+    "MCP",
+    "Model Context Protocol",
+    "x402",
+    "AP2",
+    "Agentic Commerce Protocol",
+    "Visa Trusted Agent Protocol",
+    "Mastercard Agent Pay",
+    "payment infrastructure",
+    "developer benchmark"
+  ],
+  "variableMeasured": [
+    "D1.1 Public agent-specific SDK/toolkit exists",
+    "D1.2 GA vs beta/private-preview status",
+    "D2.1 Official (vendor-hosted) MCP server exists",
+    "D2.2 MCP server permission scope (read-only vs money-out, and confirmation gating)",
+    "D3.1 x402 protocol support (self-described)",
+    "D3.2 AP2 protocol support (self-described)",
+    "D3.3 ACP (Agentic Commerce Protocol) support (self-described)",
+    "D3.4 Visa Trusted Agent Protocol / Mastercard Agent Pay support (self-described)",
+    "D4.1 Self-service developer sandbox / signup without sales contact",
+    "D5.1 Configurable spending limits",
+    "D5.2 Human-in-the-loop confirmation or delegated/one-time-use payment tokens",
+    "D5.3 Identity/compliance screening (KYA, OFAC, etc.)",
+    "D6.1 Card rail support for agent payments",
+    "D6.2 Bank transfer/ACH rail support for agent payments",
+    "D6.3 Stablecoin/crypto rail support for agent payments",
+    "D7.1 Public accessibility of core agent documentation without login",
+    "D7.2 Agent-specific pricing transparency"
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://pinkwallet.com/agentic/research/agentic-payments-readiness-2026.csv"
+    }
+  ],
+  "isBasedOn": "Direct reading of each provider's own official domain, documentation, and/or official GitHub organization; secondary sources used only where explicitly marked and limited to verbatim reproductions of the provider's own announcements.",
+  "creativeWorkStatus": "Version 1.1, quarterly re-scoring planned; corrections log published alongside the report."
+}
