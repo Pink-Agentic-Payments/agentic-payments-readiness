@@ -1,0 +1,49 @@
+company,check_id,evidence_url,quote_checked,status,detail
+Mollie,D1.1,https://docs.mollie.com/docs/mollie-mcp-server,"The Mollie MCP server lets you connect AI tools like Claude, ChatGPT and Cursor to your Mollie account using natural language, without needing to open the Mollie web app first.",PASS,
+Mollie,D1.2,https://docs.mollie.com/docs/mollie-mcp-server,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Mollie,D2.1,https://docs.mollie.com/docs/mollie-mcp-server,The Mollie MCP server is available at https://mcp.mollie.com/mcp,PASS,
+Mollie,D2.2,https://docs.mollie.com/docs/mollie-mcp-server,The AI tool can only do what your role already allows.,PASS,
+Mollie,D2.2,https://docs.mollie.com/docs/mollie-mcp-server,"turn it on for anything that creates or changes something — a payment, a refund, a subscription etc.",PASS,
+Mollie,D3.1-D3.4,https://docs.mollie.com/docs/mollie-mcp-server,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Mollie,D4.1,https://www.mollie.com/en/signup,Create a free Mollie account and start today,PASS,
+Mollie,D4.1,https://www.mollie.com/en/signup,Create your Mollie account,PASS,
+Mollie,D5.1,https://docs.mollie.com/docs/agent-toolkit-build-your-own-ai-agent-on-mollie,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Mollie,D5.2,https://docs.mollie.com/docs/agent-toolkit-build-your-own-ai-agent-on-mollie,A human must confirm any action that moves funds.,PASS,
+Mollie,D5.3,https://docs.mollie.com/docs/agent-toolkit-build-your-own-ai-agent-on-mollie,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Mollie,D6.1,https://docs.mollie.com/docs/mollie-mcp-server,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Mollie,D6.2,https://docs.mollie.com/docs/mollie-mcp-server,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Mollie,D6.3,https://docs.mollie.com/docs/mollie-mcp-server,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Mollie,D7.1,https://docs.mollie.com/docs/mollie-mcp-server,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Mollie,D7.2,https://www.mollie.com/pricing,1.80% + €0,PASS,
+Mollie,D7.2,https://www.mollie.com/pricing,2.90% + €0,PASS,
+Mollie,D7.2,https://www.mollie.com/pricing,3.25% + €0,PASS,
+Square,D1.1,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D1.2,https://developer.squareup.com/docs/mcp,The Square MCP server is currently in Beta.,PASS,
+Square,D2.1,https://developer.squareup.com/docs/mcp,The Square remote MCP server is hosted at: https://mcp.squareup.com/mcp,PASS,
+Square,D2.2,https://developer.squareup.com/docs/mcp,Restrict to read-only operations,PASS,
+Square,D3.1-D3.4,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D4.1,https://squareup.com/signup,Signing up for Square is fast and free—no commitments or long-term contracts.,PASS,
+Square,D5.1,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D5.2,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D5.3,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D6.1,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D6.2,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D6.3,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D7.1,https://developer.squareup.com/docs/mcp,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Square,D7.2,https://squareup.com/us/en/pricing,Online API Online API Applies to card payments made within your web or mobile application's workflow using our payments APIs,PASS,
+Tempo,D1.1,https://tempo.xyz/developers/docs/wallet/use-with-agents,Tempo Wallet is agent-ready by design,PASS,
+Tempo,D1.1,https://tempo.xyz/developers/docs/wallet/use-with-agents,Wallet CLI Use Tempo Wallet from the command line for agents,PASS,
+Tempo,D1.2,https://tempo.xyz/developers/docs/wallet/use-with-agents,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Tempo,D2.1,https://tempo.xyz/developers/docs/wallet/use-with-agents,Tempo MCP server Give agents search and read tools for Tempo docs,PASS,
+Tempo,D2.1,https://tempo.xyz/developers/docs/wallet/use-with-agents,claude mcp add --transport http tempo https://mcp.tempo.xyz,PASS,
+Tempo,D2.2,https://tempo.xyz/developers/docs/wallet/use-with-agents,Tempo MCP server Give agents search and read tools for Tempo docs,PASS,
+Tempo,D3.1-D3.4,https://tempo.xyz/developers/docs/guide/machine-payments,Open protocol for agentic payments,PASS,
+Tempo,D4.1,https://tempo.xyz/developers/docs/wallet/reference,tempo wallet login Connect or create wallet via browser auth,PASS,
+Tempo,D5.1,https://tempo.xyz/developers/docs/wallet/reference,Each wallet can have multiple access keys with independent spending limits. This is how you constrain what an agent or script can spend.,PASS,
+Tempo,D5.2,https://tempo.xyz/developers/docs/wallet/use-with-agents,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Tempo,D5.3,https://tempo.xyz/developers/docs/wallet/use-with-agents,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Tempo,D6.1,https://tempo.xyz/developers/docs/wallet/use-with-agents,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Tempo,D6.2,https://tempo.xyz/developers/docs/wallet/reference,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Tempo,D6.3,https://tempo.xyz/developers/docs/wallet/use-with-agents,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Tempo,D7.1,https://tempo.xyz/developers/docs/wallet/use-with-agents,,PASS,no verbatim quote in notes (absence-based / methodology note only)
+Tempo,D7.2,https://tempo.xyz/developers/docs/guide/machine-payments,Sub-cent fees — Low enough for micropayments and per-request billing,PASS,
