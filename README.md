@@ -2,6 +2,8 @@
 
 **Can an AI agent actually pay through today's payment providers?** This dataset scores 16 payment and financial-infrastructure providers against their own official documentation on 7 dimensions: agent SDK/API, MCP server, agent payment protocols (x402, AP2, ACP, Visa TAP, Mastercard Agent Pay), developer sandbox access, spending guardrails, payment rails, and documentation/pricing transparency.
 
+Also available on Hugging Face: https://huggingface.co/datasets/Agentic-Payment/agentic-payments-readiness (with the dataset viewer).
+
 - **Providers (16):** Adyen, Airwallex, Checkout.com, Circle, Coinbase, Crossmint, Mastercard, Mollie, PayPal, Payman, Skyfire, Square, Stripe, Tempo, Visa, Wise
 - **Rows:** 228 checks (185 from v1.1 + 43 added in v1.2). Each row has an evidence URL on the provider's own domain or official repo, a verbatim quote, and an access date.
 - **Version:** v1.2, published 2026-09-29 (v1.2 additions accessed 2026-09-29; v1.1 baseline accessed 2026-09-27 to 2026-09-28). v1.1 remains available unmodified at the [`v1.1` tag](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness/releases/tag/v1.1).
