@@ -52,7 +52,9 @@ These five findings describe the original 13-provider v1.1 sample only and were 
 
 ## Conflict of interest
 
-Published by PinkWallet, which is building agentic-payments products ([Pink Agentic AI Payment](https://pinkwallet.com/agentic), early access). PinkWallet is **not scored** and does not appear in the data.
+Published by PinkWallet. Pink Agentic AI Payments (by PinkWallet, early access) is the approval layer between AI agents and company money: plain-language rules, per-agent budgets and human approvals decide each payment before a single-use card or bank transfer is issued. PinkWallet is **not scored** and does not appear in the data.
+
+Try the interactive prototype (sample companies, no real money moves): https://claude.ai/public/artifacts/TpsUqLKnqZ3jHpghEGcimx
 
 ## Corrections
 
