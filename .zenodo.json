@@ -1,0 +1,24 @@
+{
+  "upload_type": "dataset",
+  "title": "Agentic Payments Readiness Dataset 2026",
+  "description": "Can AI agents actually pay? 16 payment providers scored on 7 agent-readiness dimensions, evidence-linked (CC BY 4.0).",
+  "creators": [
+    {"name": "PinkWallet"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "agentic payments",
+    "AI agents",
+    "MCP",
+    "x402",
+    "AP2",
+    "Agentic Commerce Protocol"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Pink-Agentic-Payments/agentic-payments-readiness",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
