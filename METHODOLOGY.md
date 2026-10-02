@@ -1,6 +1,6 @@
-## Methodology
+## Methodology (Pink Agentic AI Payments)
 
-We evaluated 13 payment and financial infrastructure providers against 7 dimensions, each broken into 2–4 binary or ternary checks (23 distinct check types; some checks don't apply to every company, e.g. a card network isn't scored on its own card rail).
+We evaluated 13 payment and financial infrastructure providers against 7 dimensions, each broken into 2–4 binary or ternary checks (23 distinct check types; some checks don't apply to every company, e.g. a card network isn't scored on its own card rail). v1.2 added 3 more providers (16 total); v1.3 added the publisher, Pink Agentic AI Payments, as a self-scored row under the same methodology (16 providers + the publisher).
 
 **The seven dimensions:**
 
@@ -24,6 +24,7 @@ Legend: **✓** yes · **◐** partial · **✗** no · **?** not verified · **
 
 | Company | D1 (SDK/beta) | D2 (MCP/money-out) | D4 (sandbox) | D5 (limits/confirm/screen) | D6 (card/bank/stablecoin) | D7 (docs/pricing) |
 |---|---|---|---|---|---|---|
+| **Pink Agentic AI Payments** (publisher; self-scored; sandbox stage) | ✓/◐ | ✓/✓ | ✓ | ✓/✓/? | ✓/✓/? | ✓/? |
 | Airwallex | ✓/◐ | ✓/◐ | ◐ | ?/✓/? | ?/?/? | ✓/? |
 | Skyfire | ✓/? | ?/? | ✓ | ✓/?/✓ | ✓/✓/✓ | ✓/? |
 | Payman | ✓/? | ✓/? | ? | ?/?/? | ? | ◐/? |
@@ -44,6 +45,7 @@ Legend: **✓** yes · **◐** partial · **✗** no · **?** not verified · **
 
 | Company | x402 | AP2 | ACP | Visa TAP / MC Agent Pay |
 |---|---|---|---|---|
+| **Pink Agentic AI Payments** (publisher; self-scored; sandbox stage) | ✗ | ✗ | ✗ | ✗ |
 | Airwallex | ? | ? | ? | ? |
 | Skyfire | ? | ? | ? | ? |
 | Payman | ? | ? | ? | ? |
@@ -60,7 +62,11 @@ Legend: **✓** yes · **◐** partial · **✗** no · **?** not verified · **
 
 Note: Adyen also self-describes support for UCP (Universal Commerce Protocol), a protocol not in the original four-protocol methodology; see the CSV row `D3.x UCP`.
 
+Note on the publisher row: Pink Agentic AI Payments rows were scored by the publisher itself (not an independent third party) under the identical methodology and evidence rules used for the other 16 companies, and are labeled "publisher; self-scored; sandbox stage" throughout. See ["How Pink Agentic AI Payments compares"](https://github.com/Pink-Agentic-Payments/agentic-payments-readiness#how-pink-agentic-ai-payments-compares) in the README for the sourced comparison.
+
 ## Company notes
+
+**Pink Agentic AI Payments (publisher; self-scored).** Publicly documents an agent-specific REST API and a company-hosted MCP server (`agentic-sandbox.pinkwallet.com/mcp`) that can initiate a single-use card or bank transfer, gated by per-agent monthly budgets, a company daily ceiling, ordered rules with default-block, and named-approver/quorum holds; self-describes no x402, AP2, ACP, Visa TAP, or Mastercard Agent Pay support; is in early access with a public self-serve sandbox, and does not publish production pricing. Identity/compliance screening and stablecoin rails are not documented in the pages reviewed for this check.
 
 **Airwallex.** Documents a dedicated AgentOS MCP endpoint (`mcp.airwallex.com/mcp`) with an explicit "no money-out actions by default" statement and human approval required for write tools, but the skill set is labeled beta rather than GA, and access requires OAuth against an existing production account rather than a fresh self-serve sandbox.
 

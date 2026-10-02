@@ -1,0 +1,27 @@
+company,check_id,evidence_url,quote_checked,status,detail
+Pink Agentic AI Payments,D1.1,https://pinkwallet.com/agentic/developers/tools-reference/,"Pink exposes seven tools over MCP (Streamable HTTP, stateless, JSON responses). The REST API mirrors them one to one.",PASS,
+Pink Agentic AI Payments,D1.2,https://pinkwallet.com/agentic/developers/tools-reference/,Sandbox live. Create a free sandbox workspace at agentic-sandbox.pinkwallet.com (test credentials only; no money moves). Production is not yet available.,PASS,
+Pink Agentic AI Payments,D2.1,https://pinkwallet.com/agentic/developers/connect-via-mcp/,"Endpoint: POST https://agentic-sandbox.pinkwallet.com/mcp (Streamable HTTP, stateless, JSON)",PASS,
+Pink Agentic AI Payments,D2.2,https://pinkwallet.com/agentic/developers/connect-via-mcp/,...per-agent budgets and human approvals decide each payment before a one-time card or bank transfer is issued.,PASS,
+Pink Agentic AI Payments,D3.1 x402,https://pinkwallet.com/agentic/,"Does this replace protocols like x402, AP2, or ACP? No. Those protocols define how an agent pays — the mechanics of a transaction.",PASS,
+Pink Agentic AI Payments,D3.2 AP2,https://pinkwallet.com/agentic/,"Does this replace protocols like x402, AP2, or ACP? No. Those protocols define how an agent pays — the mechanics of a transaction.",PASS,
+Pink Agentic AI Payments,D3.3 ACP,https://pinkwallet.com/agentic/,"Does this replace protocols like x402, AP2, or ACP? No. Those protocols define how an agent pays — the mechanics of a transaction.",PASS,
+Pink Agentic AI Payments,D3.4 Visa TAP/MC Agent Pay,https://pinkwallet.com/agentic/,"Card networks and protocol groups are defining how an agent presents a payment: Visa Intelligent Commerce, Mastercard Agent Pay, Google's AP2 mandates, Stripe's agentic commerce. Those answer how an agent pays a merchant. Pink answers the question that comes before it: inside a company, who may let this...",PASS,
+Pink Agentic AI Payments,D4.1,https://pinkwallet.com/agentic/,"Self-serve sandbox, test credentials only.",PASS,
+Pink Agentic AI Payments,D5.1,https://pinkwallet.com/agentic/,"An agent can only spend from the vault it is attached to, under a monthly budget and a single-payment cap, and can be paused in one tap.",PASS,
+Pink Agentic AI Payments,D5.2,https://pinkwallet.com/agentic/developers/security-model/,"What comes back after an approved request is a credential for that one payment: a single-use virtual card locked to the payee and the amount, a bank transfer that is already submitted, or a platform refund reference. Each expires 15 minutes after issue.",PASS,
+Pink Agentic AI Payments,D5.3,https://pinkwallet.com/agentic/developers/security-model/,,PASS,no verbatim quote in row (not verified / pricing: not found)
+Pink Agentic AI Payments,D6.1,https://pinkwallet.com/agentic/developers/tools-reference/,credential,PASS,
+Pink Agentic AI Payments,D6.1,https://pinkwallet.com/agentic/developers/tools-reference/,virtual_card,PASS,
+Pink Agentic AI Payments,D6.1,https://pinkwallet.com/agentic/developers/tools-reference/,sandbox,PASS,
+Pink Agentic AI Payments,D6.1,https://pinkwallet.com/agentic/developers/tools-reference/,single_use,PASS,
+Pink Agentic AI Payments,D6.1,https://pinkwallet.com/agentic/developers/tools-reference/,4111 1111 9566 9359,PASS,
+Pink Agentic AI Payments,D6.1,https://pinkwallet.com/agentic/developers/tools-reference/,PINK SANDBOX,PASS,
+Pink Agentic AI Payments,D6.2,https://pinkwallet.com/agentic/developers/tools-reference/,transfer,PASS,
+Pink Agentic AI Payments,D6.2,https://pinkwallet.com/agentic/developers/tools-reference/,reference,PASS,
+Pink Agentic AI Payments,D6.2,https://pinkwallet.com/agentic/developers/tools-reference/,PWS-E35DFB73,PASS,
+Pink Agentic AI Payments,D6.2,https://pinkwallet.com/agentic/developers/tools-reference/,status,PASS,
+Pink Agentic AI Payments,D6.2,https://pinkwallet.com/agentic/developers/tools-reference/,submitted,PASS,
+Pink Agentic AI Payments,D6.3,https://pinkwallet.com/agentic/,,PASS,no verbatim quote in row (not verified / pricing: not found)
+Pink Agentic AI Payments,D7.1,https://pinkwallet.com/agentic/developers/tools-reference/,"All seven Pink MCP tools with their input schemas and real sandbox responses: get_budget, list_payees, list_rules, check_policy, request_payment, get_credential, report_receipt.",PASS,
+Pink Agentic AI Payments,D7.2,https://pinkwallet.com/agentic/developers/,,PASS,no verbatim quote in row (not verified / pricing: not found)
