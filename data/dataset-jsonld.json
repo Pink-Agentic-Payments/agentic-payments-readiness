@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "Agentic Payments Readiness Report 2026 (v1.3, Pink Agentic AI Payments) - Scoring Dataset",
+  "name": "Agentic Payments Readiness Report 2026 (v1.4, Pink Agentic AI Payments) - Scoring Dataset",
   "description": "An original, reproducible benchmark of whether AI agents can pay through 16 payment and financial infrastructure providers today (Airwallex, Skyfire, Payman, Crossmint, Visa, Mastercard, Adyen, PayPal, Checkout.com, Circle, Stripe, Coinbase, Wise, Mollie, Square, Tempo) plus the publisher, Pink Agentic AI Payments, self-scored as a 17th row under the same methodology, scored against each provider's own official documentation across 7 dimensions: agent SDK/API, MCP server availability, agent payment protocol support, developer sandbox access, spending guardrails, payment rails, and documentation/pricing transparency.",
   "creator": {
     "@type": "Organization",
@@ -15,7 +15,7 @@
   },
   "datePublished": "2026-09-28",
   "dateModified": "2026-10-02",
-  "version": "v1.3",
+  "version": "v1.4",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "temporalCoverage": "2026-09-27/2026-10-02",
   "spatialCoverage": "Global",

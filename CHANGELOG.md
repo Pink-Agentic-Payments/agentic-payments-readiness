@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.4 — 2026-10-02
+
+Expanded publisher (Pink) sections: per-dimension notes, trial, decision flow, screenshots, connect guides, industries; no data changes for other companies.
+
+- Added a "How Pink does it" note after each of the 7 dimension definitions in METHODOLOGY.md, consistent with Pink's existing scores (e.g. D3: Pink implements none of x402/AP2/ACP/Visa TAP/Mastercard Agent Pay, and instead runs its own rule engine in front of card/bank rails).
+- Added "Try Pink Agentic AI Payments in 2 minutes" to README.md: a real `POST /v1/sandbox/workspaces` call, an MCP client config, and three real trimmed sandbox responses (allowed/pending_human/blocked) from a workspace created live for this release.
+- Added "How Pink decides a payment" (numbered evaluation order + mermaid diagram) to README.md, sourced from `policy-rules-reference`.
+- Added 4 console screenshots to README.md, embedded by absolute URL from pinkwallet.com/agentic/img/, each checked HTTP 200 and captioned "(Pink console, sample data)".
+- Added a 15-row connect-guide table and 3 runnable framework-example links to README.md.
+- Added a 15-row industries table (one-line descriptions quoted from the hub page) to README.md.
+- Added a closing paragraph to METHODOLOGY.md's "What this means for teams deploying AI agents" on applying the takeaways with Pink specifically.
+- No rows, scores, or findings for any of the 17 companies (including Pink's own row) changed in this release.
+
 ## v1.3 — 2026-10-02
 
 Added the publisher (Pink Agentic AI Payments) as a self-scored row under the same methodology; titles updated; no other company's data changed.
