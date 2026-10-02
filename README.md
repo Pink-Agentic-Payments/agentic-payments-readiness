@@ -293,6 +293,10 @@ Published by Pink Agentic AI Payments (by PinkWallet, early access) — see the 
 
 Try the free public sandbox (test credentials, no real money moves): https://agentic-sandbox.pinkwallet.com
 
+## Related
+
+- [agentic-ai-payments](https://github.com/Pink-Agentic-Payments/agentic-ai-payments) — an open developer guide to agentic AI payments (protocols, providers table built from this dataset, spending controls, sandbox quickstart).
+
 ## Corrections
 
 If a row is wrong, open an issue with the correct URL and quote. Accepted corrections are versioned and listed in the report's changelog.
